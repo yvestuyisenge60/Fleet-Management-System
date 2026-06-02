@@ -1,0 +1,34 @@
+.report-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  background: var(--card);
+  padding: 6px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  flex-wrap: wrap;
+}
+
+.report-tab {
+  flex: 1;
+  min-width: 140px;
+  padding: 10px 16px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.report-tab:hover { background: var(--bg); color: var(--text); }
+.report-tab.active { background: var(--primary); color: #fff; font-weight: 600; }
+
+.report-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: var(--text);
+}

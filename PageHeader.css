@@ -1,0 +1,16 @@
+.page-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 26px;
+  flex-wrap: wrap; gap: 12px;
+}
+.page-header-left { display: flex; align-items: center; gap: 16px; }
+
+.page-icon-box {
+  width: 54px; height: 54px;
+  border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; flex-shrink: 0;
+}
+
+.page-title { font-size: 23px; font-weight: 800; color: var(--text); letter-spacing: -.3px; }
+.page-subtitle { font-size: 13px; color: var(--text-muted); margin-top: 2px; }

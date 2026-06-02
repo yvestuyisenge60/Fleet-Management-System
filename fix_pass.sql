@@ -1,0 +1,1 @@
+USE swift_db; UPDATE users SET Password='$2a$10$mLC6h7kDanI2aoWfuPUKQOa6rp662m23NJ9RAs0TPMLJobmnfEZaq' WHERE Username='admin';
